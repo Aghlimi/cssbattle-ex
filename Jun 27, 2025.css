@@ -1,0 +1,41 @@
+<div></div>
+<style>
+  *{
+    margin:0;
+    padding:0;
+  }
+  body {
+    background:#394257;
+    position:relative;
+  }
+  div {
+    width: 80px;
+    height: 80px;
+    border-top:40px solid #D24444;
+    border-right:40px solid #D24444;
+    position:absolute;
+    left:200px;
+    top:100px;
+  }
+  body::before {
+    content:"";
+    width: 80px;
+    height: 80px;
+    border-top:40px solid #D24444;
+    border-left:40px solid #D24444;
+    position:absolute;
+    left:80px;
+    top:20px;
+  }
+  body::after {
+    content:"";
+    width: 80px;
+    height: 80px;
+    border-top:40px solid #D24444;
+    border-left:40px solid #D24444;
+    position:absolute;
+    left:80px;
+    /* top:150px;*/
+    bottom:0;
+  }
+</style>
