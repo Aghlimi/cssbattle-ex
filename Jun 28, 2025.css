@@ -1,0 +1,64 @@
+<div></div>
+<style>
+  *{
+    margin:0;
+    padding:0;
+  }
+  body{
+    padding:0 28px 0 28px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#FFFFFF;
+  }
+  div {
+    width: 250px;
+    height: 50px;
+    background: #fff;
+    border:45px solid #9CBBC2;
+    position:relative;
+  }
+  div::before {
+    content:"";
+    width: 80px;
+    height: 50px;
+    background: #fff;
+    border:45px solid #749FAA;
+    border-left:0;
+    border-right:0;
+    top:-45px;
+    left:45px;
+    position:absolute;
+  }
+  div::after {
+    content:"";
+    width: 80px;
+    height: 50px;
+    background: #fff;
+    border:146px solid #5A8D9A;
+    border-left:0;
+    border-right:0;
+    top:-146px;
+    left:125px;
+    position:absolute;
+  }
+  body::after {
+    content:"";
+    position:absolute;
+    width:80px;
+    height:80px;
+    background:#9CBBC2;
+    top:0;
+    left:120;
+  }
+    body::before {
+    content:"";
+    position:absolute;
+    width:80px;
+    height:80px;
+    background:#9CBBC2;
+    /* top:0; */
+    bottom:0;
+    left:120;
+  }
+</style>
