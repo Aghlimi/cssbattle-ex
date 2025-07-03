@@ -31,3 +31,37 @@
           160px 0px #B44141;
   }
 </style>
+
+/* other solution  */
+<div></div>
+<style>
+  *{
+    margin:0;
+    padding:0;
+  }
+  body {
+    background:linear-gradient(to bottom,
+                              #F7BED9 0% , #F7BED9 26.6%,
+                               #CE636F 20%,#CE636F 100%
+                              );
+    display:flex;
+    justify-content:center;
+  }
+  div {
+    width: 240px;
+    height: 160px;
+    background: 
+      linear-gradient(to right,
+                     #B44141 0%, #B44141 33.5%,
+                     #F7BED9 33.5%, #F7BED9 66.5%,
+                     #B44141 66%, #B44141 100%) top,
+      linear-gradient(to right, 
+                     #F7BED9 0%, #F7BED9 33.5%,
+                     #B44141 33.5%, #B44141 66.5%,
+                     #F7BED9 66%, #F7BED9 100%) bottom;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+  }
+</style>
