@@ -1,0 +1,33 @@
+<div></div>
+<style>
+  *{
+    margin:0;
+    padding:0;
+  }
+  body {
+    background:linear-gradient(to bottom,
+                              #F7BED9 0% , #F7BED9 26.6%,
+                               #CE636F 20%,#CE636F 100%
+                              );
+    display:flex;
+    justify-content:center;
+  }
+  div {
+    width: 240px;
+    height: 160px;
+    background: #F7BED9;
+    border-bottom-left-radius:40px;
+    border-bottom-right-radius:40px;
+    position:absolute;
+  }
+  div::after {
+    content:"";
+    display:block;
+    position:relative;
+    width:80px;height:80px;
+    background:#B44141;
+    box-shadow:
+          80px 80px #B44141,
+          160px 0px #B44141;
+  }
+</style>
