@@ -1,0 +1,25 @@
+<div></div>
+<style>
+  body {
+    background:#F0CD48;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  div {
+    width: 360px;
+    height: 80px;
+    background: #FFFFFF;
+    border:10px solid #394257;
+    border-radius:20px;
+    padding:8px 14px;
+    box-sizing: border-box;
+  }
+  div::after{
+    content:"";
+    width:10px;;
+    height:44px;
+    background:#394257;
+    display:block;
+  }
+</style>
