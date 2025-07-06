@@ -1,0 +1,36 @@
+<div></div>
+<style>
+  body {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#556D7F;
+  }
+  div {
+    width: 150px;
+    height: 140px;
+    background: #FADE8B;
+  }
+  div::after,div::before {
+    content:"";
+    width:20px;
+    height:50px;
+    background:#556D7F;
+    display:block;
+    position:absolute;
+    top:125px;
+    border-style:none solid;
+    border-color:#FADE8B;
+  }
+  div::after {
+    border-left-width:40px;
+    border-right-width:65px;
+    left:0;
+    /* left:40px; */
+  }
+  div::before {
+    border-left-width:65px;
+    border-right-width:40px;
+    left:275px
+  }
+</style>
