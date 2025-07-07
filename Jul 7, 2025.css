@@ -1,0 +1,24 @@
+<div></div>
+<style>
+  *{
+    margin:0;
+    padding:0;
+  }
+  html {
+    overflow:hidden;
+    background:#32295A;
+  }
+  body {
+    width: 370px;
+    height:  270px;
+    background:#32295A;
+    overflow:hidden;
+  }
+  div {
+    
+    width: 124.5vw;
+    height:  150vw;
+    background: #48BF7D;
+    border-radius:100em;
+  }
+</style>
