@@ -1,0 +1,60 @@
+<div></div>
+<style>
+  *{
+    padding:0;
+    margin:0;
+  }
+    body {
+      background: #F3AC3C;
+      background-image:
+        radial-gradient(circle, #998235 60px, transparent 60px),
+        radial-gradient(circle, #998235 50px, transparent 50px),
+        linear-gradient(#1A4341);
+      background-size: 120px 120px, 100px 100px,106px 20px;
+      background-position: 44px, 115px 50%,213px 50%;
+      background-repeat: no-repeat;
+    }
+
+div{
+  background:#1A4341;
+  border-radius:100%;
+  width:40px;
+  height:40px;
+  position:absolute;
+  top:125px;
+  left:140px;
+  border:5px solid #F3AC3C;
+}
+div::after{
+  content:"";
+  width:10px;
+  height:40px;
+  background:#1A4341;
+  position:absolute;
+  border-radius:20px;
+  left:-60px;
+}
+body::after {
+    content:"";
+  width:40px;
+  height:30px;
+  background:#998235;
+  position:absolute;
+  border-radius:10px;
+  left:315px;
+  top:45%;
+}
+  body::before{
+  content:"";
+  width:20px;
+  height:4px;
+  background:#1A4341;
+  position:absolute;
+  border-radius:20px;
+  left:325px;
+  top:143px;
+  z-index:10;
+    box-shadow:0px 10px 0px #1A4341;
+}
+  
+</style>
