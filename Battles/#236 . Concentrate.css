@@ -19,7 +19,7 @@
     background:#F8B140;
   }
   .c{
-    background:#ffffff;
+    background:#F8B140;
     height:100%;
     width:80px;
     /* display:flex;
@@ -27,7 +27,7 @@
     overflow:hidden;
   }
   .b{
-    width:100px;
+    width:91px;
     height:90px;
     background:#F8B140;
     background-image:radial-gradient(circle at center, #cf6939 15px, transparent 12px);
@@ -39,6 +39,6 @@
     border-radius:100%;
     position:relative;
     top:75px;
-    left:-38px;
+    left:-37px;
   }
 </style>
