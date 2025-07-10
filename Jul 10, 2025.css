@@ -1,0 +1,51 @@
+<div></div>
+<style>
+  *{
+    margin:0;
+    padding:0;
+  }
+  body{
+    background:#7AA70A;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  div {
+    width: 170.9px;
+    height: 40px;
+    border-radius:50px 50px 0 0;
+    position:absolute;
+    background:white;
+    top:40;
+  }
+  div::after {
+    content:"";
+    width:40px;
+    height:120px;
+    border-radius:50px 0 0 37.9px;
+    background:white;
+    position:absolute;
+  }
+  div::before {
+    content:"";
+    width:90px;
+    height:60px;
+    background:#7AA70A;
+    position:absolute;
+    top:80;
+    left:40px;
+    border:40px solid white;
+    border-left:none;
+    border-radius:0 100px 100px 0;
+  }
+  body::after {
+        content:"";
+    width:90px;
+    height:40px;
+    background:#FFFFFF;
+    position:absolute;
+    border-radius:0 0 0 50px;
+    top:220px;
+    left:115;
+  }
+</style>
