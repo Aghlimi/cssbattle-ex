@@ -1,0 +1,42 @@
+<div></div>
+<style>
+  body{
+    background:#107640;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  div {
+    width: 230px;
+    height: 230px;
+    background: #161D1A;
+    border-radius:100%;
+    background-image:
+      linear-gradient(#107640),
+      linear-gradient(#161D1A),
+      linear-gradient(#107640),
+      linear-gradient(#107640),
+      linear-gradient(#107640),
+      linear-gradient(#107640),
+      linear-gradient(#107640);
+    background-repeat:no-repeat;
+    background-size:
+    86px 42px,
+    93px 56px,
+      130px 104px,
+      22px 31px,
+      22px 51px,
+      22px 51px,
+      22px 41px
+      ;
+    background-position:
+    101px 116px,
+    94px 109px,
+    47px bottom,
+    47px 88,
+    83px 68,
+    119px 63,
+    155px 68
+    ;
+  }
+</style>
