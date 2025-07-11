@@ -1,0 +1,34 @@
+<div></div>
+<style>
+  body {
+    background:#F7BED9;
+    display:flex;
+    align-items:center;
+    padding:22px
+  }
+  div {
+    width: 40px;
+    height: 40px;
+    border-radius:100%;
+    background: #F069AB;
+    position:relative;
+    top:-30;
+    box-shadow:
+      180px 0 #F069AB,
+      180px 60px #F069AB,
+      0 60px #F069AB;
+    &::after{
+      content:"";
+      background:#EC0076;
+      border-radius:100px;
+      width:100px;
+      height:40px;
+      position:absolute;
+      left:60;
+      box-shadow:
+      180px 0 #EC0076,
+      180px 60px #EC0076,
+      0 60px #EC0076;
+    }
+  }
+</style>
