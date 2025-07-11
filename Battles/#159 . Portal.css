@@ -1,0 +1,26 @@
+<div></div>
+<style>
+  body{
+    background:#F5D6B4;
+    padding:67px 117px;
+  }
+  div {
+    width: 150px;
+    height: 150px;
+    background: #D86F45;
+  }
+  div::after {
+    content:"";
+    width:50px;
+    height:50px;
+    position:absolute;
+    top:25px;
+    left:175px;
+    display:block;
+    background:#D86F45;
+    box-shadow:
+    100px 100px #D86F45,
+    -100px 100px #D86F45,
+    0px 200px #D86F45
+  }
+</style>
