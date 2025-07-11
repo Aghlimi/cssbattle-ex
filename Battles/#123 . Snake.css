@@ -1,0 +1,43 @@
+<div></div>
+<style>
+  body{
+    background:#C74E4E;
+  }
+  div {
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    border-radius:100px;
+    position:absolute;
+    left:90px;
+    top:90px
+  }
+  div::before{
+    content:"";
+    width:20px;
+    height:20px;
+    border-radius:5px;
+    background:#E0E246;
+    position:absolute;
+    left:100px;
+    box-shadow:
+  25px 0 #E0E246,
+  50px 0 #E0E246,
+  75px 0 #E0E246,
+  100px 0 #E0E246,
+  100px 25px #E0E246,
+  100px 50px #E0E246,
+  100px 75px #E0E246,
+  100px 100px #E0E246,
+  75px 100px #E0E246,
+  50px 100px #E0E246,
+  25px 100px #E0E246,
+  0px 100px #E0E246,
+  -25px 100px #E0E246,
+  -50px 100px #E0E246,
+  -75px 100px #E0E246,
+  -100px 100px #E0E246
+
+      
+  }
+</style>
