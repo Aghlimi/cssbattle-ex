@@ -1,0 +1,67 @@
+<div></div>
+<style>
+  body{
+    background:#081945;
+  }
+  div {
+    width: 50px;
+    height: 10px;
+    background: #B069F7;
+    position:absolute;
+    left:40px;
+    top:40px;
+    box-shadow:
+    0 50px #f8da37,
+      180px 50px  #f8da37,
+      270px 50px #f8da37,
+      90px 0px #B069F7,
+      180px 0px #B069F7,
+      270px 0px #B069F7;
+  }
+  div::after {
+    content:"";
+    width:10px;
+    height:10px;
+    background:#B069F7;
+    position:absolute;
+    top:10;
+    left:-10;
+        box-shadow:
+    0 50px #f8da37,
+      180px 50px  #f8da37,
+      270px 50px #f8da37,
+      90px 0px #B069F7,
+      180px 0px #B069F7,
+      270px 0px #B069F7;
+  }
+  div::before {
+    content:"";
+    width:10px;
+    height:10px;
+    background:#B069F7;
+    position:absolute;
+    top:10;
+    left:50;
+    box-shadow:
+            0 50px #f8da37,
+        180px 50px  #f8da37,
+          270px 50px #f8da37,
+          90px 0px #B069F7,
+          180px 0px #B069F7,
+          270px 0px #B069F7,
+          105px 160px #2CE1EA,
+          105px 190px #2CE1EA,
+          105px 220px #2CE1EA,
+          105px 230px #2CE1EA;
+  }
+  body::after {
+        content:"";
+    width:40px;
+    height:40px;
+    background:#2CE1EA;
+    position:absolute;
+    bottom:-27;
+    left:180px;
+    transform:rotate(45deg);
+  }
+</style>
