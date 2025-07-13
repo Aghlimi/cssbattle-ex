@@ -1,0 +1,21 @@
+<div></div>
+<style>
+  body{
+    background:#48BF7D;
+    padding:7px
+  }
+  div {
+    width: 30;
+    height: 80px;
+    background: white;
+    box-shadow:
+          170px 0 white,
+          340px 0 white,
+          170px 95px white,
+          340px 95px white,
+          0px 95px white,
+          170px 190px white,
+          0px 190px white,
+          340px 190px white
+  }
+</style>
