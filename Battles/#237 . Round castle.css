@@ -1,0 +1,22 @@
+<div></div>
+<style>
+  body {
+    background:#3F4869;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  div {
+    width: 220px;
+    height: 214px;
+    border-radius:102% 101% 0 0;
+    background:
+    linear-gradient(#F4DA64 ),
+    linear-gradient(#E25C57),
+    linear-gradient(#3F4869),
+    linear-gradient(to right,#E25C57 50%,#F4DA64 50%);
+    background-repeat:no-repeat;
+    background-size:55px 104px,55px 104px,40px 40px,100%;
+    background-position:left bottom,right bottom,bottom;
+  }
+</style>
