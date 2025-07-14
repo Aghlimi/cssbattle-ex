@@ -36,3 +36,47 @@
     left:25px
   }
 </style>
+
+<div></div>
+<style>
+  *{
+    margin:0;
+    padding:0;
+  }
+  body{
+    padding:0 25px;
+    background:#CEEDFF;
+  }
+  div {
+    height:110px;    
+    width:350px;
+    background:#CEEDFF;
+    overflow:hidden;
+    border-bottom:80px solid #05476C;
+    position:relative;
+    display:flex;
+    justify-content:center;
+  
+  }
+  div::before{
+    content:"";
+    width:350px;
+    height:350px;
+    background:#2BBBF3;
+    border-radius:100%;
+    display:flex;
+    justify-content:center;
+    position:relative;
+    top:-65px;
+  }
+  div::after {
+    content:"";
+    width:301px;
+    height:300px;
+    display:block;
+    background:#CEEDFF;
+    border-radius:100%;
+    position:absolute;
+    top:-126
+  }
+</style>
