@@ -1,0 +1,18 @@
+<style>
+  *{margin:0;}
+  body{
+    border:20px solid #54C144;
+    background:black;
+    padding:40px
+  }
+  body::after {
+    content:"";
+    width: 40px;
+    height: 40px;
+    background:#C74E4E;
+    position:absolute;
+    box-shadow:
+      40px 0 0 #C74E4E,120px 0 0 #C74E4E,160px 0 0 #C74E4E,40px 80px 0 #C74E4E,0 80px 0 #C74E4E,80px 80px 0 #C74E4E,120px 80px 0 #C74E4E,160px 80px 0 #C74E4E,240px 80px 0 #C74E4E,240px 120px 0 #C74E4E,240px 40px 0 #C74E4E,240px 140px 0 #C74E4E,240px 0 0 #C74E4E,45px 140px 0 -15px white,65px 140px 0 -15px white,25px 140px 0 -15px #54C144,15px 140px 0 -15px #54C144,5px 140px 0 -15px #54C144,5px 130px 0 -15px #54C144,5px 150px 0 -15px #54C144,-5px 140px 0 -15px #54C144,-5px 130px 0 -15px #54C144,-5px 150px 0 -15px #54C144,5px 125px 0 -15px #54C144,-5px 125px 0 -15px #54C144,15px 125px 0 -15px #54C144,-15px 125px 0 -15px #54C144,5px 155px 0 -15px #54C144,-5px 155px 0 -15px #54C144,15px 155px 0 -15px #54C144,-15px 155px 0 -15px #54C144
+    ;
+  }
+</style>
