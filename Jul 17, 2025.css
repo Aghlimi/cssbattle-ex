@@ -1,0 +1,22 @@
+<style>
+  body{
+    background:#243D83;
+    background-image:
+      linear-gradient(#6592CF),
+      linear-gradient(#FFFFFF),
+      linear-gradient(#FFFFFF),
+      linear-gradient(#6592CF);
+    background-size:10px 10px;
+    background-size:
+      100px 120px,
+      72px 72px,
+      72px 72px,
+      100px 120px;
+    background-repeat:no-repeat;
+    background-position:
+      130px 120px,
+      118px 180px,
+      170px 108px,
+      170px 60px;
+  }
+</style>
