@@ -1,0 +1,38 @@
+<div></div>
+<style>
+  body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#B6EBE7;
+  }
+  div {
+    width: 80px;
+    height: 160px;
+    background: #B6EBE7;
+    border-style:solid;
+    border-width:0 40px 40px 40px;
+    border-color:#9382E4;
+    position:absolute;
+    top:70px;
+  }
+  div::after{
+    content:"";
+    width:135px;
+    height:80px;
+    background:#5E2BB7;
+    position:absolute;
+    top:40;
+    left:-135;
+    box-shadow:215px 0#5E2BB7;
+  }
+  div::before {
+    content:"";
+    width:40;
+    height:160;
+    background:#9382E4;
+    position:absolute;
+    left:-135;
+    box-shadow:310px 0#9382E4;
+  }
+</style>
