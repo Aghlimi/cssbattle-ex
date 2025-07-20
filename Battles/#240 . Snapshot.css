@@ -1,0 +1,34 @@
+<style>
+  html{
+    background:#558C90;
+    padding:42px 102px
+  }
+  body{
+    width:180px;
+    height:200px;
+    background:#325853;
+    border-radius:40px;
+    background-image:
+    linear-gradient(#325853),
+    linear-gradient(#558C90),
+    linear-gradient(#325853),
+    linear-gradient(#558C90),
+    linear-gradient(#325853),
+    linear-gradient(#F4DA64),
+    linear-gradient(#558C90)
+    ;
+    background-size:
+      20px 20px,
+      20px 100%,
+      60px 20px ,
+      60px 20px,
+      60px 20px,
+      100px 80px,
+      100% 40px;
+    background-repeat:no-repeat;
+    background-position:center,center,
+      center 70,
+      center 90,
+      center 110;
+  }
+</style>
