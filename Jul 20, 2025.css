@@ -1,0 +1,36 @@
+<div></div>
+<style>
+  html{
+    background:#FADE8B;
+    padding:76px 142px
+  }
+  body{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    background:#48BF7D;
+  }
+  body::after{
+    content:"";
+    background:#48BF7D;
+    width:140px;
+    height:40px;
+    position:absolute;
+    top:135;
+    left:130;
+    border-radius:100px;
+    box-shadow:0 40px #48BF7D;
+    z-index:-1
+  }
+  div {
+    width: 15px;
+    height: 15px;
+    background: #FFFFFF;
+    position:absolute;
+    border-radius:100%;
+    top:122;
+    left:173;
+    z-index:1;
+    box-shadow:40px 0#FFFFFF;
+  }
+</style>
