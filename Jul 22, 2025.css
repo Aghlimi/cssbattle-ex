@@ -1,0 +1,41 @@
+<div></div>
+<style>
+  body{
+    background:#EEEEEE;
+    background-repeat:no-repeat;
+    background-image:
+      linear-gradient(#246541),
+      linear-gradient(#439E6B),
+      linear-gradient(#439E6B),
+      linear-gradient(#439E6B),
+      linear-gradient(#439E6B);
+    background-size:
+      100px 160px,
+      30px 14px,
+      14px 30px,
+      30px 14px,
+      14px 30px
+    ;
+    background-position:center,120 200,120 210,250 200,266 210;
+  }
+  body::after , body::before{
+    background:#EEEEEE;
+    content:"";
+    width:50px;
+    height:50px;
+    position:absolute;
+    border-radius:100%;
+    top:45px;
+    left:150px;
+    background-image:
+      linear-gradient(#439E6B),
+      linear-gradient(#439E6B),
+      radial-gradient(circle at center, #000000 25%, transparent 10%);
+    background-repeat:no-repeat;
+    background-size:100% 17px,100% 17px,100% 100%;
+    background-position:top,bottom,0 -7px;
+  }
+  body::before{
+    left:200px
+  }
+</style>
