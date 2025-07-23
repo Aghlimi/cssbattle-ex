@@ -1,0 +1,27 @@
+<style>
+  body{
+    background:#C05F6A;
+    background-image:
+    linear-gradient(#C05F6A),
+    linear-gradient(#C05F6A),
+    linear-gradient(#F2EAA8),
+    linear-gradient(#F2EAA8),
+    linear-gradient(#F2EAA8),
+    linear-gradient(#F2EAA8);
+    background-repeat:no-repeat;
+    background-size:
+      30px 100%,
+      30px 100%,
+      270px 30px,
+      230px 30px,
+      190px 30px,
+      150px 30px;
+    background-position:
+      135px,
+      235px,
+      center 45px,
+      center 105px,
+      center 165px,
+      center 225px;
+  }
+</style>
