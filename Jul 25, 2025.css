@@ -1,0 +1,13 @@
+<div></div>
+<style>
+  body{
+    background:#FADE8B;
+    padding:60 136;
+  }
+  div {
+    width: 72px;
+    height: 72px;
+    border-radius:20px;
+    background:#556D7F;
+    box-shadow:92px 20px #D24444,20px 92px #556D7F}
+</style>
