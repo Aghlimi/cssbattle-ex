@@ -1,0 +1,34 @@
+<div></div>
+<style>
+  body{
+    background:#3D3824;
+    justify-items:center;
+  }
+  div {
+    width: 280px;
+    height: 110px;
+    background:#F7FFCF;
+    position:absolute;
+    top:125;
+    border-radius:10px;
+  }div::after{
+    content:"";
+    width:240;
+    height:110;
+    position:absolute;
+    background:linear-gradient(to bottom,#F7FFCF 0,#F7FFCF 36%,#86C78D 36%,#86C78D 100%);
+    top:-40;
+    left:20;
+    border-radius:10px;
+  }div::before{
+    content:"";
+    width:200;
+    height:40;
+    position:absolute;
+    background:linear-gradient(to bottom,#86C78D 0%,#86C78D 49%,#3D3824 49%,#3D3824 100%);
+    top:-60;
+    left:40;
+    border-radius:10px;
+    z-index:3;
+  }
+</style>
