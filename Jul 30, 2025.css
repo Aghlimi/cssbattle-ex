@@ -1,0 +1,33 @@
+<div></div>
+<style>
+  body{
+    background:#48BF7D;
+  }
+  div {
+    width: 140px;
+    height: 140px;
+    background: #48BF7D;
+    position:absolute;
+    left:85;
+    top:50;
+    border:30px solid#FEFF58;
+    border-radius:100%;
+  }
+  div::after{
+    content:"";
+    background:#48BF7D;
+    width:100px;
+    height:200px;
+    position:absolute;
+    left:70;
+    top:-30;
+    background-image:
+      linear-gradient(#3E5AA9),
+      linear-gradient(#FEFF58),
+      linear-gradient(#FEFF58)
+      ;
+    background-size:30px 100%,30px 100%, 80px 30px;
+    background-repeat:no-repeat;
+    background-position:0,30px,bottom;
+  }
+</style>
