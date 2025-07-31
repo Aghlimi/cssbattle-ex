@@ -1,0 +1,22 @@
+<style>
+  html{
+    background:#23384B;
+    padding:12px 102px;
+    background-image:
+      linear-gradient(#F0CD48),
+      linear-gradient(#F0CD48),
+      linear-gradient(#F0CD48);
+    background-repeat:no-repeat;
+    background-size:100px  50px,50px 135px,50px 220px;
+    background-position:center,110px 40px,240px 40px;
+  }
+  body{
+    background:#F0CD48;
+    width:50px;
+    height:50px;
+    border-radius:100%;
+    box-shadow:
+      130px 0 #F0CD48,
+        130px 210px #F0CD48;
+  }
+</style>
