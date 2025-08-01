@@ -1,0 +1,12 @@
+<style>
+  body{
+    background:#B6EBE7;
+    background-image:
+      linear-gradient(#3A335A),
+      linear-gradient(#3A335A),
+      linear-gradient(#3A335A);
+    background-repeat:no-repeat;
+    background-size:200px 60px,36px 108px;
+    background-position:18px 18px,center,182px 222px
+  }
+</style>
