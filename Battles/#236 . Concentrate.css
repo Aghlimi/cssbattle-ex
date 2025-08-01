@@ -24,15 +24,15 @@
     background:#F8B140;
   }
   .container div {
-    width: 90px;
-    height: 90px;
-    background: #F8B140;
+    width: 30px;
+    height: 30px;
+    background: #CF6939;
     border-radius:100%;
-    background: radial-gradient(circle at center, #CF6939 23%, transparent 1%);
-    border:30px solid #2F434E;
-    outline:30px solid #CF6939;
+    border:30px solid #F8B140;
+    outline:30px solid #2F434E;
     position:relative;
-    top:75px;
-    left:-35px;
+    top:105px;
+    left:-5px;
+    box-shadow:0 0 0 60px #CF6939;
   }
 </style>
