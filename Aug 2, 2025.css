@@ -1,0 +1,30 @@
+<style>
+  html{background:#31938C}
+  body{
+    border:20px solid white;
+    border-width:60px 30px 30px 30px;
+    margin: 25px auto;
+    width:220px;
+    height:160px;
+    border-radius:20px;
+    &::after{
+      content:"";
+      width:30px;
+      height:30px;
+      background:white;
+      position:absolute;
+      left:160;
+      top:100;
+      box-shadow:
+      50px 0#FFFFFF,
+      100px 0#FFFFFF,
+      50px 50px#FFFFFF,
+      100px 50px#FFFFFF,
+      0 50px#FFFFFF,
+      0 100px#FFFFFF,
+      50px 100px#FFFFFF,
+      -50px 50px#FFFFFF,
+      -50px 100px#FFFFFF
+    }
+  }
+</style>
