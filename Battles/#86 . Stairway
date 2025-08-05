@@ -1,0 +1,33 @@
+<div></div>
+<style>
+  body{
+    background:#191919;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+  }
+  div {
+    width: 100px;
+    height: 150px;
+    border-radius:50px  50px 0 0;
+    background:#4F77FF;
+    background-image:
+      linear-gradient(#191919),
+      linear-gradient(#191919),
+      linear-gradient(#191919),
+      linear-gradient(#191919);
+    background-size:
+      20px 20px,
+      100px 20px,
+      100px 20px,
+      100px 20px
+      ;
+    background-repeat:no-repeat;
+    background-position: 
+      80px 58px,
+      60px 82px,
+      40px 106px,
+      20px 130px;
+  }
+</style>
