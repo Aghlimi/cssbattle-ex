@@ -1,0 +1,33 @@
+<style>
+  body{
+    display:flex;
+    align-items:center;
+    background:#423F36;
+    background-image:linear-gradient(#FEFF58);
+    background-repeat:no-repeat;
+    background-size:100% 100px;
+    background-position:center
+  }
+  body::after{
+    content:"f";
+    position:absolute;
+    background:#D94E4E;
+    width:250px;
+    height:60px;
+    left:-125;
+    border-radius:100%;
+    box-shadow:400px 0 0 #3E5AA9;
+  }
+  body::before {
+    content:"";
+    width:100px;
+    height:100px;
+    background:#423F36;
+    position:absolute;
+    z-index:1;
+    border-radius:19px;
+    transform:rotate(45deg);
+    left:150px;
+    top:170px
+  }
+</style>
