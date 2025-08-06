@@ -1,0 +1,40 @@
+<div></div>
+<style>
+  html{
+    background:#88EBF8;
+  }
+  body{
+    margin:0;
+    z-index:1;
+    background:#00000000;
+    background-image:
+      linear-gradient(#23384B),
+      linear-gradient(#23384B),
+      linear-gradient(#88EBF8),
+      linear-gradient(#88EBF8);
+    background-repeat:no-repeat;
+    background-size:20px 100%,100% 20px,100px  100px,100px 100px;
+    background-position:center,center,100 10,200 170;
+  }
+  div {
+    z-index:-1;
+    position:absolute;
+    width:30;
+    height:30;
+    background:#88EBF8;
+    left:186;
+    top:35;
+    border:20px solid#23384B;
+    border-radius:100%;
+  &::after {
+    content:"";
+    position:absolute;
+    width:30;
+    height:30;
+    background:#88EBF8;
+    left:-62;
+    top:140;
+    border:20px solid#23384B;
+    border-radius:100%;
+  }
+</style>
