@@ -1,0 +1,28 @@
+<div></div>
+<style>
+  html {
+    background:#328FC1;
+      overflow:hidden;
+    
+  }
+  body{
+    height:190px;
+    width:190px;
+    position:absolute;
+    border-left:30px solid #243D83;
+      border-bottom:30px solid #243D83;
+    left:82px;
+    top:32px;
+      overflow:hidden;
+  }
+  div {
+    width: 200px;
+    height: 200px;
+    background:#EBE77E;
+      border:30px solid #243D83;
+    transform:rotate(45deg);
+    position:absolute;
+    left:-150px;
+    top:92px
+  }
+</style>
