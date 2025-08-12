@@ -1,0 +1,33 @@
+<div></div>
+<style>
+  body{
+    background:#7E6293;
+  }
+  div {
+    width: 90px;
+    height: 120px;
+    background:#FFFFFF;
+    position:absolute;
+    left:75px;
+    top:50px;
+    border-radius:100px;
+    box-shadow:160px 80px#FFFFFF;
+    &::after{
+      content:"";
+      background:#7E6293;
+      width:30px;
+      height:60px;
+      position:absolute;
+      top:30px;
+      left:30;
+      border-radius:100px;
+      box-shadow:160px 80px#7E6293;
+    }
+    &::before{
+       content:"";
+      background:#FFFFFF;
+      width:30px;
+      height:210px;
+      position:absolute;
+      left:110;
+      transform:rotate(15deg)
