@@ -1,0 +1,27 @@
+<div></div>
+<style>
+  body{
+    background:#4C455B;
+  }
+  div{
+    width: 140px;
+    height: 100px;
+    background:#D96C7B;
+    margin:135px auto;
+    border:30px solid #F3EAD2;
+    border-top-width:0;
+  &::after{
+    content:"";
+    width:140px;
+    height:140px;
+    background:#F3EAD2;
+    border-radius:100%;
+    border:30px solid #D96C7B;
+    position:absolute;
+    z-index:-1;
+    top:35;
+    left:100
+  }
+  }
+  
+</style>
