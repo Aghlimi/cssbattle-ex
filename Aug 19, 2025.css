@@ -1,0 +1,11 @@
+<div></div>
+<style>
+  body{background:#FCEBEB}
+  div{
+    width:60;
+    height:20;
+    background:#DE6B67;
+    margin:20 162;
+    box-shadow:0 40px#DE6B67,0 80px#DE6B67,-60px 100px#DE6B67,-120px 120px#DE6B67,-60px 140px#DE6B67,60px 100px#DE6B67,120px 120px#DE6B67,60px 140px#DE6B67,0 160px#DE6B67,0 200px#DE6B67,0 240px#DE6B67;
+  }
+</style>
