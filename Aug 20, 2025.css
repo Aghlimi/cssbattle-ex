@@ -1,0 +1,51 @@
+<div></div>
+<style>
+  body{
+    background:#414B81;
+    &::after{
+      content:"";
+      width:100;
+      height:100;
+      background:#FADE8B;
+      position:absolute;
+      top:175;
+      left:60;
+      border-radius:99% 0 99% 99%
+    }
+    &::before{
+      content:"";
+      width:100;
+      height:100;
+      background:#FADE8B;
+      position:absolute;
+      top:175;
+      left:240;
+      border-radius:0 99% 99% 99%
+  }
+  div{
+    width:80;
+    height:50;
+    background:#FADE8B;
+    margin-left:152;
+    margin-top:125;
+    &::after{
+      content:"";
+      width:100;
+      height:100;
+      background:#FADE8B;
+      position:absolute;
+      top:25;
+      left:60;
+      border-radius:99% 99% 0
+    }
+    &::before{
+      content:"";
+      width:100;
+      height:100;
+      background:#FADE8B;
+      position:absolute;
+      top:25;
+      left:240;
+      border-radius:99% 99% 99% 0
+  }
+</style>
