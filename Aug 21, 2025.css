@@ -1,0 +1,31 @@
+<div></div>
+<style>
+  body{
+    background:#526766;
+    margin:0
+  }
+  div{
+    width:50;
+    height:50;
+    background:#B9C99F;
+    box-shadow:350px 0#B9C99F,350px 100px #B9C99F,350px 150px#B9C99F,300px 150px#B9C99F,250px 150px#B9C99F,225px 150px#B9C99F,125px 150px#B9C99F,75px 150px#B9C99F,50px 150px#B9C99F,0 150px#B9C99F,0 100px#B9C99F;
+    &::after{
+      content:"";
+      width:125;
+      height:50;
+      background:#B9C99F;
+      position:absolute;
+      margin:50 50;
+      border-radius:0 99px 99px 0
+    }
+    &::before{
+      content:"";
+      width:125;
+      height:50;
+      background:#B9C99F;
+      position:absolute;
+      margin:50 225;
+      border-radius:99px 0 0 99px
+    }
+  }
+</style>
