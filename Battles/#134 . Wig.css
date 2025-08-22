@@ -1,0 +1,20 @@
+<div></div>
+<style>
+  body{background:#62306D}
+  div{
+    width:80;
+    height:160;
+    background:#F7EC7D;
+    margin:70 112;
+    border-radius:99px 0 50px 0;
+    &::after{
+      content:"";
+      width:80;
+      height:160;
+      background:#F7EC7D;
+      margin:0 80;
+      border-radius: 0 99px 0 50px;
+      position:absolute;
+    }
+  }
+</style>
