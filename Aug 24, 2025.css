@@ -1,0 +1,41 @@
+<div></div>
+<style>
+  html{
+    overflow:hidden;
+    background:#62E383;
+  }
+  body{
+    background:#62E383;
+    width:200;
+    margin:0 100;
+    overflow:hidden;
+  }
+  div{
+    width: 180px;
+    height:180px;
+    background:#3B240C;
+    margin:60 10;
+    border-radius:50%;
+    box-shadow:70px 0 0 #3B240C,-70px 0 0 #3B240C;
+    &::after{
+      content:"";
+      background:#62E383;
+      width:20;
+      height:20;
+      position:absolute;
+      left:160;
+      top:120;
+      border-radius:100%;
+      box-shadow:60px 0#62E383;
+    }
+    &::before{
+      content:"";
+      background:#62E383;
+      width:80px;
+      height:10px;
+      position:absolute;
+      top:160;
+      left:160
+    }
+  }
+</style>
