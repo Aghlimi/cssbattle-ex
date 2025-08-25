@@ -1,0 +1,33 @@
+<div></div>
+<style>
+  body{
+    background:#3A335A
+  }
+  div,div::after,div::before {
+    width: 140px;
+    height: 170px;
+    background:#3A335A;
+    background-image:
+      linear-gradient(white),
+      linear-gradient(white),
+      linear-gradient(white);
+    background-repeat:no-repeat;
+    background-position:top,center ,bottom;
+    background-size:100% 30px;
+    margin:65 122
+  }
+  div::after,div::before{
+    content:"";
+    position:absolute;
+  }
+  div::after{
+    top:0;
+    left:-162;
+    transform:rotate(15deg)
+  }
+  div::before{
+    top:0;
+    left:178;
+    transform:rotate(-15deg);
+  }
+</style>
