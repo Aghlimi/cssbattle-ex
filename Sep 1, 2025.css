@@ -1,0 +1,21 @@
+<style>
+  body{
+    background:#E25C57;
+    background-image:
+      linear-gradient(#F4DA64),
+      linear-gradient(#F4DA64),
+      linear-gradient(#F4DA64),
+      linear-gradient(#F4DA64),
+      linear-gradient(#F4DA64),
+      linear-gradient(#F4DA64);
+    background-size:200px 30px;
+    background-repeat:no-repeat;
+    background-position:
+      right top,
+      right 50px,
+      right 100px,
+      left 170px,
+      left 220px,
+      left bottom;
+  }
+</style>
