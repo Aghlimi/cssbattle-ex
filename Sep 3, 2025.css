@@ -1,0 +1,31 @@
+<div></div>
+<style>
+  body{
+    background:#243D83
+  }
+  div {
+    width: 120px;
+    height: 120px;
+    background:white;
+    border-radius:100%;
+    border:40px solid #243D83;
+    outline:20px solid white;
+    margin:50 92;
+    &::after{
+      background:#243D83;
+      content:"";
+      width:100%;
+      height:46px;
+      position:absolute;
+      margin:38 -200;
+    }
+    &::before{
+      background:#243D83;
+      content:"";
+      width:46px;
+      height:100%;
+      position:absolute;
+      margin:-100 38;
+    }
+  }
+</style>
